@@ -1,0 +1,33 @@
+# Virtual environment
+.venv/
+venv/
+
+# Python cache
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# Jupyter
+.ipynb_checkpoints/
+
+# Model weights (DO NOT upload)
+*.pth
+*.h5
+
+# Logs
+*.log
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Large datasets (ignored)
+data/
+processed/
+
+# But allow small sample data
+!sample_data/
+
+# Environment variables
+.env
