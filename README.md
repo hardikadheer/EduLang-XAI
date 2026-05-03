@@ -65,13 +65,15 @@ EduLang-XAI aims to:
 
 
 EduLang-XAI/
-│── data/ # Dataset
-│── models/ # Saved models
-│── notebooks/ # Training & experiments
-│── src/ # Core code (model, preprocessing, etc.)
-│── results/ # Outputs and evaluation
-│── images/ # Screenshots used in README
-│── README.md
+├── data/ # Dataset
+├── models/ # Saved models
+├── notebooks/ # Training & experiments
+├── src/ # Core code (model, preprocessing, etc.)
+├── results/ # Outputs and evaluation
+├── images/ # Screenshots used in README
+└── README.md
+
+
 
 
 ---
