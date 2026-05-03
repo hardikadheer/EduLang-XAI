@@ -1,22 +1,97 @@
-# EduLang-XAI
-An explainable English–French Neural Machine Translation system using Seq2Seq with Attention, featuring step-by-step interpretability and BLEU score evaluation.
+# 🌍 EduLang-XAI
 
-**EduLang-XAI** is an explainable AI-powered Neural Machine Translation (NMT) system that translates English sentences into French using a Sequence-to-Sequence (Seq2Seq) architecture with an attention mechanism.  
+### Explainable English → French Neural Machine Translation (NMT)
 
-Unlike traditional translation models that operate as black boxes, EduLang-XAI focuses on **transparency and learning** by exposing each stage of the translation pipeline—from tokenization and encoding to attention-based decoding. This makes it not only a translation tool but also a **learning-oriented system** for understanding how modern NLP models work.  
+EduLang-XAI is an **Explainable AI-powered Neural Machine Translation system** that translates English sentences into French using a **Seq2Seq architecture with Attention**.
 
-The model is trained on a bilingual dataset and evaluated using the **BLEU score**, achieving strong performance while maintaining interpretability. By combining deep learning with explainable AI (XAI), EduLang-XAI bridges the gap between **accuracy and understanding** in machine translation.  
-
----
-
-##  Key Highlights  
--  English → French Neural Machine Translation  
--  Seq2Seq architecture with Attention mechanism  
--  Step-by-step explainability (tokenization, encoding, decoding)  
--  BLEU score evaluation for translation quality  
--  Designed with a focus on language learning and interpretability  
+Unlike traditional black-box models, this system focuses on **transparency and learning**, exposing each stage of the translation pipeline—from tokenization to attention-based decoding.
 
 ---
 
-##  Motivation  
-Most modern translation systems prioritize accuracy but provide little insight into how translations are generated. EduLang-XAI addresses this by building a **glass-box model** that allows users to see and understand the internal workings of neural machine translation, making it especially useful for students and researchers in NLP.
+## 🚀 Features
+
+* 🔤 English → French translation
+* 🧠 Seq2Seq model with Attention mechanism
+* 🔍 Step-by-step explainability
+
+  * Tokenization
+  * Encoding
+  * Attention weights
+  * Decoding process
+* 📊 BLEU score evaluation for performance
+* 🎓 Designed for **learning + interpretability in NLP**
+
+---
+
+## 🧠 Model Architecture
+
+* Encoder-Decoder (Seq2Seq)
+* Attention Mechanism for context handling
+* Trained on bilingual English-French dataset
+
+---
+
+## 📊 Evaluation
+
+* Metric Used: **BLEU Score**
+* Achieves strong translation quality while maintaining interpretability
+
+---
+
+## 🎯 Motivation
+
+Most modern translation systems act as **black boxes**, offering little insight into how outputs are generated.
+
+EduLang-XAI aims to:
+
+* Provide **transparency in NLP models**
+* Help students understand **how machine translation works internally**
+* Bridge the gap between **accuracy and interpretability**
+
+---
+
+## 📂 Project Structure
+
+```
+EduLang-XAI/
+│── data/              # Dataset
+│── models/            # Saved models
+│── notebooks/         # Training & experiments
+│── src/               # Core code (model, preprocessing, etc.)
+│── results/           # Outputs and evaluation
+│── README.md
+```
+
+---
+
+## ⚙️ Tech Stack
+
+* Python
+* TensorFlow / PyTorch (mention what YOU used)
+* NumPy, Pandas
+* NLP techniques (Tokenization, Embeddings, Attention)
+
+---
+
+## 📸 Sample Output
+
+(Add screenshots here of translation + attention visualization)
+
+---
+
+## 💡 Future Improvements
+
+* Add Transformer-based model
+* Improve dataset size and diversity
+* Build a web interface for real-time translation
+* Extend to multiple languages
+
+---
+
+## 👩‍💻 Author
+
+**Hardika Dheer**
+B.Tech CSE (AI/ML)
+Aspiring AI/ML Engineer
+
+---
