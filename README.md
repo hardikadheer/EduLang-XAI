@@ -61,22 +61,19 @@ EduLang-XAI aims to:
 
 ---
 
-## 📂 Project Structure  
+## 📂 Project Structure
 
-
+```
 EduLang-XAI/
-├── data/ # Dataset
-├── models/ # Saved models
-├── notebooks/ # Training & experiments
-├── src/ # Core code (model, preprocessing, etc.)
-├── results/ # Outputs and evaluation
-├── images/ # Screenshots used in README
+├── data/              # Dataset
+├── models/            # Saved models
+├── notebooks/         # Training & experiments
+├── src/               # Core code (model, preprocessing, etc.)
+├── results/           # Outputs and evaluation
+├── images/            # Screenshots used in README
 └── README.md
+```
 
-
-
-
----
 
 ## ⚙️ Tech Stack  
 
